@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="edit-bank-address-on-the-wgs-website;user-success-to-update-bank-address" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/wgs-testing/features/bank-address.feature">
+            </property>
+        </properties>
+        <testcase name="Given Browse profile page" classname="edit-bank-address-on-the-wgs-website;user-success-to-update-bank-address" time="0.0012308">
+        </testcase>
+        <testcase name="And User click Bank Account button" classname="edit-bank-address-on-the-wgs-website;user-success-to-update-bank-address" time="0.0003152">
+        </testcase>
+        <testcase name="And User fill beneficiary name" classname="edit-bank-address-on-the-wgs-website;user-success-to-update-bank-address" time="0.0003449">
+        </testcase>
+        <testcase name="And User fill beneficiary bank" classname="edit-bank-address-on-the-wgs-website;user-success-to-update-bank-address" time="0.0004882">
+        </testcase>
+        <testcase name="And User fill beneficiary account" classname="edit-bank-address-on-the-wgs-website;user-success-to-update-bank-address" time="0.0012336">
+        </testcase>
+        <testcase name="And User fill bank address" classname="edit-bank-address-on-the-wgs-website;user-success-to-update-bank-address" time="0.0003253">
+        </testcase>
+        <testcase name="When User click Submit button" classname="edit-bank-address-on-the-wgs-website;user-success-to-update-bank-address" time="0.0004626">
+        </testcase>
+        <testcase name="Then Data is saved" classname="edit-bank-address-on-the-wgs-website;user-success-to-update-bank-address" time="0.000438">
+        </testcase>
+    </testsuite>
+    <testsuite name="login-on-the-wgs-website;user-success-to-login-on-the-website" tests="5" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/wgs-testing/features/login.feature">
+            </property>
+        </properties>
+        <testcase name="Given Browse login page" classname="login-on-the-wgs-website;user-success-to-login-on-the-website" time="0.0005189">
+        </testcase>
+        <testcase name="And User fill email login" classname="login-on-the-wgs-website;user-success-to-login-on-the-website" time="0.0002721">
+        </testcase>
+        <testcase name="And User fill password" classname="login-on-the-wgs-website;user-success-to-login-on-the-website" time="0.0002834">
+        </testcase>
+        <testcase name="When User click Login button" classname="login-on-the-wgs-website;user-success-to-login-on-the-website" time="0.0003334">
+        </testcase>
+        <testcase name="Then User in user page" classname="login-on-the-wgs-website;user-success-to-login-on-the-website" time="0.0004559">
+        </testcase>
+    </testsuite>
+    <testsuite name="logout-from-the-wgs-website;user-success-to-logout-from-the-website" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/wgs-testing/features/logout.feature">
+            </property>
+        </properties>
+        <testcase name="Given Browse home page" classname="logout-from-the-wgs-website;user-success-to-logout-from-the-website" time="0.0009024">
+        </testcase>
+        <testcase name="When User click Sign Out button" classname="logout-from-the-wgs-website;user-success-to-logout-from-the-website" time="0.0003243">
+        </testcase>
+        <testcase name="Then User in login page" classname="logout-from-the-wgs-website;user-success-to-logout-from-the-website" time="0.0003914">
+        </testcase>
+    </testsuite>
+    <testsuite name="edit-profile-on-the-wgs-website;user-success-to-update-profile" tests="8" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/wgs-testing/features/profile.feature">
+            </property>
+        </properties>
+        <testcase name="Given User browse profile page" classname="edit-profile-on-the-wgs-website;user-success-to-update-profile" time="0.0013562">
+        </testcase>
+        <testcase name="And User fill first name" classname="edit-profile-on-the-wgs-website;user-success-to-update-profile" time="0.0004462">
+        </testcase>
+        <testcase name="And User fill last name" classname="edit-profile-on-the-wgs-website;user-success-to-update-profile" time="0.0003268">
+        </testcase>
+        <testcase name="And User fill email" classname="edit-profile-on-the-wgs-website;user-success-to-update-profile" time="0.0003663">
+        </testcase>
+        <testcase name="And User fill phone number" classname="edit-profile-on-the-wgs-website;user-success-to-update-profile" time="0.0017866">
+        </testcase>
+        <testcase name="And User fill address" classname="edit-profile-on-the-wgs-website;user-success-to-update-profile" time="0.0003415">
+        </testcase>
+        <testcase name="When User click Update Personal Details button" classname="edit-profile-on-the-wgs-website;user-success-to-update-profile" time="0.0012115">
+        </testcase>
+        <testcase name="Then Data user is saved" classname="edit-profile-on-the-wgs-website;user-success-to-update-profile" time="0.0007858">
+        </testcase>
+    </testsuite>
+    <testsuite name="go-to-register-page-on-the-wgs-website;user-success-to-go-to-register-page" tests="3" failures="0" skipped="0">
+        <properties>
+            <property name="URI" value="D:/wgs-testing/features/signup-today.feature">
+            </property>
+        </properties>
+        <testcase name="Given User browse home page" classname="go-to-register-page-on-the-wgs-website;user-success-to-go-to-register-page" time="0.0006759">
+        </testcase>
+        <testcase name="When User click Signup Today button" classname="go-to-register-page-on-the-wgs-website;user-success-to-go-to-register-page" time="0.000502">
+        </testcase>
+        <testcase name="Then User in register page" classname="go-to-register-page-on-the-wgs-website;user-success-to-go-to-register-page" time="0.0005573">
+        </testcase>
+    </testsuite>
+</testsuites>
